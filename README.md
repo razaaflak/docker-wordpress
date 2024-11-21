@@ -1,4 +1,6 @@
-# Project Setup Guide
+# Setup Wordpress Development Locally with Docker
+
+This will setup wordpress development environment locally along with database and phpmyadmin in minutes
 
 ## Requirements
 
@@ -6,9 +8,13 @@ Before starting, ensure you have Docker Desktop installed on your local machine.
 
 ```bash
 docker --version
+```
 
+## Steps
+You need to clone the repository in your local folder and then run:
 
-After cloning the repository in your local drive you need to run following command
-
-```bash
+```python
 docker-compose up -d
+```
+
+If everything goes successful you should see wp-content folder in your working directory. Go to your docker desktop and there should be container running and images
